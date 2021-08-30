@@ -6,6 +6,8 @@
 //
 //FFTW library is required to compile and run the project. Depending on your buil configuration CPU type, 
 //rename either libfftw3-3-x86.dll or libfftw3-3-x64.dll to libfftw3-3.dll and put it in your application .exe folder
+//for more information, see http://www.fftw.org/install/windows.html
+//I use x86 build setting
 
 #include "stdafx.h"
 #include "sigpro.h"
