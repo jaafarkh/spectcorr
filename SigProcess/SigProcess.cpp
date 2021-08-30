@@ -999,8 +999,8 @@ int main()
 	Noverlap = (int)(Nw * 0.6667);//or R = 0.333Nw for ACP and Fast ACP
 	
 	wdf = SamRate / Nw;//delta freq
-	da = (wdf / 64) / SamRate; //relative to Sample rate
-	auto SCo = new float[Nw  * L/2];
+	da = 1.0f / L; //relative to Sample rate
+	auto SCo = new float[Nw  * L/2];//(L/2) is maximum alpha count
 	auto x = new float[L+32]();//putting () will initilize to zero all elements
 	a1 = 0;
 	a2 = 4096;
