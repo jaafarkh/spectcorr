@@ -1,5 +1,12 @@
 // SigProcess.cpp : Defines the entry point for the console application.
+// Written by Jaafar Alsalaet
+//Last edited on 30-8-2021
+//c++ implementation of spectral correlation/coherence
+//using ACP, FastACP, FAM, FSC and fast Dirichlet kernel SC
 //
+//FFTW library is required to compile and run the project. Depending on your buil configuration CPU type, 
+//rename either libfftw3-3-x86.dll or libfftw3-3-x64.dll to libfftw3-3.dll and put it in your application .exe folder
+
 #include "stdafx.h"
 #include "sigpro.h"
 #include <fftw3.h>
