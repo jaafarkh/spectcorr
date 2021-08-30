@@ -1,4 +1,4 @@
-# spectcorr
+# Spectral correlation
 this repository is dedicated to provide c++ implement spectral correlation and spectral coherence for cyclostationary signal analysis.
 Using visual studio 2017
 The project is based on c++ Win32 console application 
@@ -10,3 +10,6 @@ Current build configuration uses x86.
 The latest c++ toolset is required to build the project
 the application calculates spectral correlation/coherence using ACP, fast ACP, FAM, Antoni etal Fast SC and 
 Borghesani and antoni fast dirichlet based SC
+
+# License
+Please read https://github.com/jaafarkh/spectcorr/blob/add-license-1/LICENSE
