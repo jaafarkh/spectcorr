@@ -7,7 +7,8 @@ Project Dependency
 rename either libfftw3-3-x86.dll or libfftw3-3-x64.dll to libfftw3-3.dll and put it in your application .exe folder
 
 Current build configuration uses x86.
-The latest c++ toolset is required to build the project
+Once, you open the project, select x86 build setting.
+The latest c++ toolset is required to build the project.
 the application calculates spectral correlation/coherence using ACP, fast ACP, FAM, Antoni etal Fast SC and 
 Borghesani and antoni fast dirichlet based SC
 
