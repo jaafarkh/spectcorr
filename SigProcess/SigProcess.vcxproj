@@ -130,7 +130,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
-      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/SigProcess</AdditionalIncludeDirectories>
       <AdditionalOptions>/Qvec-report:2 %(AdditionalOptions)</AdditionalOptions>
       <StructMemberAlignment>Default</StructMemberAlignment>
       <FloatingPointModel>Precise</FloatingPointModel>
@@ -142,7 +142,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ProjectDir)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)/SigProcess</AdditionalLibraryDirectories>
       <AdditionalDependencies>libfftw3-3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
