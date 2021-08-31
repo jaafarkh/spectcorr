@@ -1,16 +1,20 @@
 # Spectral correlation
 this repository is dedicated to provide c++ implement spectral correlation and spectral coherence for cyclostationary signal analysis.
 Using visual studio 2017
-The project is based on c++ Win32 console application 
-Project Dependency
+The project is based on c++ Win32 console application. 
+the application calculates spectral correlation/coherence using ACP, fast ACP, FAM, Antoni etal Fast SC and 
+Borghesani and antoni fast dirichlet based SC.
+
+# Project Dependency
 - FFTW library is required to compile and run the project. Depending on your buil configuration CPU type, 
-rename either libfftw3-3-x86.dll or libfftw3-3-x64.dll to libfftw3-3.dll and put it in your application .exe folder
+The header file and intermediate library are already contained in the project.
+Copy the file libfftw3-3.dll from projectdir/SigProcess/fftw32 for 32-bit building or projectdir/SigProcess/fftw64
+for 64-bit building and put it in your application .exe folder
 
 Current build configuration uses x86.
-Once, you open the project, select x86 build setting.
+Once, you extract the downloaded zip file, open the project and select x86 build setting.
 The latest c++ toolset is required to build the project.
-the application calculates spectral correlation/coherence using ACP, fast ACP, FAM, Antoni etal Fast SC and 
-Borghesani and antoni fast dirichlet based SC
+
 
 # License
 Please read https://github.com/jaafarkh/spectcorr/blob/add-license-1/LICENSE
