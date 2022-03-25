@@ -4,6 +4,9 @@ Using visual studio 2017.
 The project is based on c++ Win32 console application. 
 the application calculates spectral correlation/coherence using ACP, fast ACP, FAM, Antoni et al Fast SC and 
 Borghesani and Antoni fast dirichlet based SC.
+Please cite the Fast ACP code as:
+Jaafar K. Alsalaet, Fast Averaged Cyclic Periodogram method to compute spectral correlation and coherence,ISA Transactions,
+2022, ISSN 0019-0578, https://doi.org/10.1016/j.isatra.2022.01.029.
 
 # Project Dependency
 - FFTW library is required to compile and run the project. Depending on your buil configuration CPU type, 
